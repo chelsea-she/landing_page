@@ -363,6 +363,10 @@ input, select, textarea {
 		padding-bottom: 5rem;
 		position:absolute;
 	}
+	#highlights a:hover {
+		color:#000000;
+		cursor: default;
+	}
 	@-webkit-keyframes pulse {
 		0% {
 			border-right: 1.5px solid grey;
@@ -2674,19 +2678,36 @@ input, select, textarea {
 			display: block;
 			border-radius: 4px;
 		}
+		#headerstarterContent {
+			width:230%;
+		}
+		#bgVideo4 {
+			width: 110%;
+			margin-top:5rem;
+		}
+		#headstarterVid {
+			width:50%;
+			padding:0;
+			margin-right:3rem;
+		}
+		#headstarterContent .button {
+			margin-left:1rem;
+		}
 		#bgVideo{
 			width:65%;
 			margin-left:15%;
 		}
+		
 		#shsConnectContent{
 			width:100%;
 		}
 		#bgVideo2{
-			width:70%;
+			width:100%;
+			padding-left:5rem;
 		}
 		#inspiritAIContent{
 			width:105%;
-			margin-right:2rem;
+			margin-left:5rem;
 			padding:0;
 		}
 		#inspiritAIContent .button{
