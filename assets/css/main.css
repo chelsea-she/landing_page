@@ -3545,7 +3545,6 @@ input, select, textarea {
 	}
 
 		.banner.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -3558,19 +3557,18 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 50%;
-			max-width: 48rem;
-			margin: 0 auto;
+			width: 200%;
+			margin: 1rem;
 		}
 
 		.banner.style1 .image {
-			-moz-flex-grow: 0;
+			/* -moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
-			flex-grow: 0;
-			-moz-flex-shrink: 0;
+			flex-grow: 0; */
+			/* -moz-flex-shrink: 0;
 			-webkit-flex-shrink: 0;
-			-ms-flex-shrink: 0;
+			-ms-flex-shrink: 0; */
 			flex-shrink: 0;
 			border-radius: 0;
 			width: 50%;
@@ -3587,9 +3585,9 @@ input, select, textarea {
 				object-position: center;
 				display: block;
 				position: absolute;
+				object-fit: cover;
 				top: 0;
-				left: 0;
-				width: 100%;
+				width: auto;
 				height: 100%;
 				border-radius: 0;
 			}
@@ -3597,7 +3595,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style1 .content {
-				padding: 5rem 5rem 3rem 5rem ;
+				padding: 5rem -5rem 3rem 5rem ;
 			}
 
 		}
@@ -3605,7 +3603,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style1 .content {
-				padding: 4rem 4rem 2rem 4rem ;
+				padding: 4rem -4rem 2rem 4rem ;
 			}
 
 		}
@@ -3613,7 +3611,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 3.75rem -3.75rem 1.75rem 3rem ;
 			}
 
 		}
@@ -3621,7 +3619,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style1 .content {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
+				padding: 2.5rem -2.5rem 0.5rem 2rem ;
 			}
 
 		}
